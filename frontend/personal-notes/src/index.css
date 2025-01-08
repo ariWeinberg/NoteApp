@@ -72,22 +72,24 @@ body {
   max-width: 800px;
 }
 
-.note-card {
+/* .note-card {
   background: white;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 30% 30%;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .note-card p {
   margin: 0;
   font-size: 1rem;
 }
 
-.note-card button {
+/* .note-card button {
   background-color: #ff5252;
   color: white;
   border: none;
@@ -95,7 +97,7 @@ body {
   padding: 5px 10px;
   cursor: pointer;
   transition: background-color 0.3s;
-}
+} */
 
 .note-card button:hover {
   background-color: #d50000;

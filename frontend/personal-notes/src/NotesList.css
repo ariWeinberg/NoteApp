@@ -126,9 +126,11 @@
 }
 
 .delete-button:hover {
-  background: #d50000;
-  box-shadow: 0 5px 1px rgba(116, 38, 38, 0.1);
-
+  background: #930a0a;
+  
+  box-shadow: 0 5px 1px rgba(116, 38, 38, 0.5);
+  
+  transform: translateY(-5px);
 }
 
 /* Error Message */

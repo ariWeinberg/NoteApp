@@ -1,0 +1,69 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6200ee;
+  color: white;
+  padding: 20px;
+}
+
+.header nav {
+  display: flex;
+  gap: 10px;
+}
+
+.header nav button {
+  background: #ddd;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.header nav button.active {
+  background: #3700b3;
+  color: white;
+}
+
+.header nav button:hover {
+  background: #ccc;
+}
+
+.logout-button {
+  background: #ff5252;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background: #d32f2f;
+}
+
+/* Main Content */
+.main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Switch Authentication Button */
+.switch-auth-button {
+  margin-top: 20px;
+  background: #6200ee;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.switch-auth-button:hover {
+  background: #3700b3;
+}

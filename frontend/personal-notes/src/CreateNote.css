@@ -1,0 +1,177 @@
+/* Create Note Container */
+.create-note-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #ffffff, #f9f9f9);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  animation: fadeIn 0.5s ease;
+}
+
+/* Title Input */
+.note-title-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.note-title-input:focus {
+  border-color: #6200ee;
+  box-shadow: 0 0 8px rgba(98, 0, 238, 0.3);
+  outline: none;
+}
+
+/* Content Textarea */
+.note-content-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  height: 200px;
+  resize: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.note-content-input:focus {
+  border-color: #6200ee;
+  box-shadow: 0 0 8px rgba(98, 0, 238, 0.3);
+  outline: none;
+}
+
+/* Tags Container */
+.tags-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Tag Input */
+.tag-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.tag-input:focus {
+  border-color: #6200ee;
+  box-shadow: 0 0 8px rgba(98, 0, 238, 0.3);
+  outline: none;
+}
+
+/* Add Tag Button */
+.add-tag-button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #6200ee, #3700b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.add-tag-button:hover {
+  background: linear-gradient(135deg, #3700b3, #6200ee);
+  transform: scale(1.05);
+}
+
+/* Tags List */
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Individual Tag */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, #e0e0e0, #f2f2f2);
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.tag:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Remove Tag Button */
+.remove-tag-button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: red;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+.remove-tag-button:hover {
+  color: darkred;
+}
+
+/* Create Note Button */
+.create-note-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #4caf50, #388e3c);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.create-note-button:hover {
+  background: linear-gradient(135deg, #388e3c, #4caf50);
+  transform: translateY(-2px);
+}
+
+/* Error Message */
+.error-message {
+  color: #ff5252;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

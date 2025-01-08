@@ -1,0 +1,83 @@
+/* General Authentication Styles */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .auth-container h2 {
+    font-size: 1.8rem;
+    color: #6200ee;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .auth-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .auth-input:focus {
+    border-color: #6200ee;
+    outline: none;
+    box-shadow: 0 0 8px rgba(98, 0, 238, 0.3);
+  }
+  
+  /* Buttons */
+  .auth-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: #6200ee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .auth-button:hover {
+    background: #3700b3;
+  }
+  
+  .switch-auth-button,
+  .logout-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .switch-auth-button:hover,
+  .logout-button:hover {
+    background: #ccc;
+  }
+  
+  /* Messages */
+  .error-message {
+    color: #ff5252;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: #4caf50;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  

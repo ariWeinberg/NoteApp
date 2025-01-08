@@ -127,6 +127,8 @@
 
 .delete-button:hover {
   background: #d50000;
+  box-shadow: 0 5px 1px rgba(116, 38, 38, 0.1);
+
 }
 
 /* Error Message */

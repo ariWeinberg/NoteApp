@@ -1,6 +1,7 @@
 .note-details-container {
-  max-width: 600px;
-  margin: 50px auto;
+  /* max-width: 70vw; */
+  width: 50vw;
+  margin: 50px 25vw;
   padding: 30px;
   background: #fff;
   border-radius: 12px;
@@ -91,15 +92,6 @@
   color: #ff5252;
   font-size: 1rem;
   margin-bottom: 10px;
-}
-/* Note Details Container */
-.note-details-container {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 30px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
 .note-details-container h2 {
